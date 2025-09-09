@@ -1,0 +1,31 @@
+name: balenciaga_ecommerce
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/balenciagalogo.jpg
+
+
+flutter_native_splash:
+  color: "#000000"         
+  image: assets/balenciagalogo.jpg
+  android: true
+  ios: true
