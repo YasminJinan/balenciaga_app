@@ -1,4 +1,5 @@
 import 'package:balenciaga_ecommerce/utils/consts.dart';
+import 'package:balenciaga_ecommerce/views/auth/login_screen.dart';
 import 'package:balenciaga_ecommerce/views/onboarding/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -26,9 +27,16 @@ class _BalenciagaAppState extends State<BalenciagaApp> {
         textTheme: TextTheme(
           bodyMedium: TextStyle(color: textColor),
           bodySmall:  TextStyle(color: textColor),
-        )
+        ),
+        scaffoldBackgroundColor: Colors.white
       ),
-      home: OnboardingScreen(),
+      // InintialRoute untuk mendefininiskna kelas 
+      // apa yang akna tampil pertama kali saat aplikasi dijalankan
+      initialRoute: '/onboarding',
+      routes: {
+        '/onboarding' : (context) =>OnboardingScreen(),
+        '/login' : (context) =>LoginScreen()
+      },
     );
   }
 }
