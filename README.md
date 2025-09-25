@@ -18,13 +18,13 @@ Built with **Flutter** for a seamless, cross-platform shopping experience.
 - Dart v3.2.4 (stable)
 - Flutter v3.24.5 (stable channel)
 
-**Back-End
+**Back-End**
 - Firebase Authentication – User login & register
 
 **AI Integration**
 - Chatbot assistant for customer support & smart interactions
 
-##Dependencies
+## Dependencies
 
 **Core**
 - `flutter` – Core SDK
